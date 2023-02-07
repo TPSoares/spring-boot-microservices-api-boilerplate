@@ -11,3 +11,9 @@ flyway:
     baseline-on-migrate: true
     clean-on-validation-error: false
     cleanDisabled: true
+logging:
+    level:
+        root: INFO
+#    pattern:
+#        console: "%white(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1.}): %msg%n%throwable"
+#        file: "%white(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1.}): %msg%n%throwable"
